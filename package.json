@@ -1,0 +1,20 @@
+{
+  "name": "request-header",
+  "version": "1.0.0",
+  "description": "node based app to return user's ip, language, os",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Jonathan Clermont",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "engine": {
+    "node": "7.10.0"
+  }
+}
