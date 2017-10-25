@@ -1,5 +1,5 @@
 const http = require('http');
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 const app = http.createServer((req,res) => {
 	res.writeHead(200, {'Content-type': 'text/plain'});
@@ -13,4 +13,4 @@ const app = http.createServer((req,res) => {
 	res.end(JSON.stringify(user));
 });
 
-app.listen(3000, () => 'Listening on port 3000'); 
+app.listen(port, () => `Listening on port ${port}`); 
